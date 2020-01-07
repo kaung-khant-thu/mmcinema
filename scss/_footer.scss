@@ -1,3 +1,30 @@
 .footer{
     background-color: black;
 }
+.social-icons{
+    li{
+        padding-left: 50px;
+        padding-right: 50px;
+
+        a{
+            color:#292929;
+            &:hover{
+                color:$primary-color;
+            }
+        }
+
+        i{
+            border:2px solid #292929;
+            height: 65px;
+            width: 65px;
+            line-height: 65px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 100px;
+
+            &:hover{
+                border-color:$primary-color;
+            }
+        }
+    }
+}
