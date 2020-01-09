@@ -8,6 +8,17 @@ $font-article: 'Allerta', sans-serif;
 
 $primary-color:#bfba55;
 
+.location{
+    font-family: $font-article;
+    font-size: 20px;
+    position: relative;
+    line-height: 1.2em;
+    
+}
+
+.fa-lg{
+    line-height: 1.2em;
+}
 
 @import "scss/hero";
 @import "scss/footer";

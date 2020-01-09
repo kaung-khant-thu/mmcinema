@@ -15,7 +15,7 @@
 {
     font-family:$font-stack;
     font-weight:bold;
-    color:white;
+    color:lightsteelblue;
     font-size:62px;
 }
 
@@ -49,9 +49,78 @@
     z-index:10;
     position: relative;
 }
-
+//Mandalay
 .mandalay-hero{
     background:url("mandalayphoto/bg1.jpg");
+    padding:290px 0;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+//Yangon
+.yangon-hero{
+    background:url("yangonphoto/ygnbg.jpg");
+    padding:290px 0;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+//Nay Pyi Taw
+.naypyitaw-hero{
+    background:url("naypyitawphoto/nptbg.jpg");
+    padding:290px 0;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+.naypyitaw-hero-title
+{
+    font-family:$font-stack;
+    font-weight:bold;
+    color:black;
+    font-size:62px;
+}
+//Pakokku
+.pakokku-hero{
+    background:url("pakokkuphoto/pkubg.jpg");
+    padding:290px 0;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+// Pakokku Cinema
+.thiha-hero{
+    background:url("images/redcinema.jpg");
+    padding:290px 0;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+//Nay Pyi Taw Cinema
+.jcgvnpt-hero{
+    background:url("images/redcinema.jpg");
     padding:290px 0;
     text-align:center;
     background-repeat:no-repeat;
