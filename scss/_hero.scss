@@ -155,3 +155,21 @@
     background-attachment: fixed;
     margin-bottom: 50px;
 }
+//for book now button
+.btn-hero
+{
+    background-color:darkcyan;
+    color:black;
+    font-family:$font-stack;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:2px;
+    padding:13px 22px;
+    border-radius:100px;
+    border:1px solid black;
+    &:hover{
+    background:transparent;
+    color:black;
+    }
+    margin-left: 16em;
+}
